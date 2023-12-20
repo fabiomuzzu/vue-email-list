@@ -8,7 +8,7 @@
 <body>
     <div id="app">
         <ul>
-            <li>{{email}}</li>
+            <li v-for="(item, index) in email" :key="index">{{item}}</li>
         </ul>
     </div>
 
